@@ -1,0 +1,25 @@
+{
+  "name": "ts-app",
+  "version": "1.0.0",
+  "description": "curso typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcmhugo/Cursos.git"
+  },
+  "author": "HugoCM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vcmhugo/Cursos/issues"
+  },
+  "homepage": "https://github.com/vcmhugo/Cursos#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@capacitor/camera": "^4.1.2"
+  }
+}
