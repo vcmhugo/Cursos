@@ -8,8 +8,19 @@ export interface Product extends BaseModel {
 
     readonly id: string | number;
     readonly title:string;
+    readonly image:string;
+    readonly description:string;
     readonly stock:number;
-    readonly size:sizes;
+    readonly size?:sizes;
+    readonly color:string;
+    readonly price:number;
     readonly category:Category;
+    readonly isNew:boolean;
+    readonly tags: string[];
 
 }
+
+
+
+
+

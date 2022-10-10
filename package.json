@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vcmhugo/Cursos#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
     "ts-node": "^10.9.1"
   },
   "dependencies": {
